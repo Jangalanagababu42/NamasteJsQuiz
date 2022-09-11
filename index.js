@@ -55,7 +55,7 @@ function play(question, answer) {
   }
 
   console.log("----------------------------------------------")
-  console.log(chalk.red.bold(userName + " Your Current Score is : ", score));
+  console.log(chalk.blue.bold(userName + " Your Current Score is : ", score));
 }
 
 
